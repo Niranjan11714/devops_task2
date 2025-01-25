@@ -22,8 +22,8 @@ Set up your AWS credentials and default region:
 aws configure
 ```
 Provide:
-Access Key
-Secret Key
+Access Key, 
+Secret Key, 
 Default region (e.g., us-east-1)
 
 
