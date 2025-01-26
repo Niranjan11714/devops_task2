@@ -31,6 +31,10 @@ Generate an SSH key pair to use with your EC2 instance:
 ```
 ssh-keygen -t rsa -f /path/where/we/want/my_kp
 ```
+This will create two files:
+my_kp (private key), 
+my_kp.pub (public key) 
+Ensure the public key is referenced in your Terraform configuration.
 
 ## 4. Set Up Workspaces
 Create Workspaces
