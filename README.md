@@ -1,5 +1,5 @@
 ## 1. Prerequisites
-Install Terraform
+Download and install Terraform
 ```
 sudo apt update
 sudo apt install -y wget unzip
@@ -10,7 +10,7 @@ terraform --version
 ```
 
 
-Download and install AWS CLI:
+Install AWS CLI:
 ```
 sudo apt install -y awscli
 aws --version
