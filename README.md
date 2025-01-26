@@ -26,8 +26,14 @@ Access Key,
 Secret Key, 
 Default region (e.g., us-east-1)
 
+## 4. Generate SSH Key
+Generate an SSH key pair to use with your EC2 instance:
+```
+ssh-keygen -t rsa -f /path/where/we/want/my_kp
 
-## 4. Set Up Workspaces
+```
+
+## 5. Set Up Workspaces
 Create Workspaces
 ```
 terraform workspace new dev
@@ -40,7 +46,7 @@ Verify Workspaces
 terraform workspace list
 ```
 
-## 5. Commands to Execute
+## 6. Commands to Execute
 Initialize Terraform
 ```
 terraform init
